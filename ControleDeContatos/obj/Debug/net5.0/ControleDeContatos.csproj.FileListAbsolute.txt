@@ -360,6 +360,6 @@ C:\Users\herbe\Desktop\.net\ControleDeContatos\ControleDeContatos\obj\Debug\net5
 C:\Users\herbe\Desktop\.net\ControleDeContatos\ControleDeContatos\obj\Debug\net5.0\ControleDeContatos.genruntimeconfig.cache
 C:\Users\herbe\Desktop\.net\ControleDeContatos\ControleDeContatos\obj\Debug\net5.0\ref\ControleDeContatos.dll
 C:\Users\herbe\Desktop\.net\ControleDeContatos\ControleDeContatos\obj\Debug\net5.0\Razor\Views\Contato\Index.cshtml.g.cs
-C:\Users\herbe\Desktop\.net\ControleDeContatos\ControleDeContatos\obj\Debug\net5.0\Razor\Views\Contato\Apagar.cshtml.g.cs
 C:\Users\herbe\Desktop\.net\ControleDeContatos\ControleDeContatos\obj\Debug\net5.0\Razor\Views\Contato\Criar.cshtml.g.cs
 C:\Users\herbe\Desktop\.net\ControleDeContatos\ControleDeContatos\obj\Debug\net5.0\Razor\Views\Contato\Editar.cshtml.g.cs
+C:\Users\herbe\Desktop\.net\ControleDeContatos\ControleDeContatos\obj\Debug\net5.0\Razor\Views\Contato\ApagarConfirmacao.cshtml.g.cs
