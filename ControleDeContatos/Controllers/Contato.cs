@@ -1,33 +1,30 @@
 ﻿using ControleDeContatos.Models;
 using ControleDeContatos.Repositorio;
 using Microsoft.AspNetCore.Mvc;
+using System.Collections.Generic;
 
-namespace ControleDeContatos.Controllers
-{
-    public class Contato : Controller
-    {
+namespace ControleDeContatos.Controllers {
+    public class Contato : Controller {
         private readonly IContatoRepositorio _contatoRepositorio;
         public Contato(IContatoRepositorio contatoRepositorio) {
             _contatoRepositorio = contatoRepositorio;
         }
 
-        public IActionResult Index()
-        {
+        public IActionResult Index() {
+
+            List<ContatoModel> contatos = _contatoRepositorio.BuscarTodos();
+            return View(contatos);
+        }
+
+        public IActionResult Criar() {
             return View();
         }
 
-        public IActionResult Criar()
-        {
+        public IActionResult Editar() {
             return View();
         }
 
-        public IActionResult Editar()
-        {
-            return View();
-        }
-
-        public IActionResult ApagarConfirmacao()
-        {
+        public IActionResult ApagarConfirmacao() {
             return View();
         }
 
